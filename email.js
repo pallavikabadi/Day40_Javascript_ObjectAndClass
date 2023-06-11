@@ -37,3 +37,12 @@ if(checkEmail4){
 else{
     console.log("Email is not valid");
 }
+
+//UC5
+let checkEmail5 = emailRegex.test("abc.trust@bridgelabz.co.com");
+if(checkEmail5){
+    console.log("Email is valid");
+}
+else{
+    console.log("Email is not valid");
+}
