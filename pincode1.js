@@ -18,3 +18,13 @@ if(pincodeCheck1){
 else{
     console.log("Pincode is not valid");
 }
+//UC3 Restrict to take alphabet and special characters at end
+
+let pincodeCheck2 = pincodeRegex.test("400088B");
+
+if(pincodeCheck2){
+    console.log("Pincode is valid");
+}
+else{
+    console.log("Pincode is not valid");
+}
