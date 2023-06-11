@@ -8,3 +8,13 @@ if(checkEmail1){
 else{
     console.log("Email is not valid");
 }
+
+
+//UC2 To validate email with @ and bridgelabz part
+let checkEmail2 = emailRegex.test("abc.pqr@bridgelabz.co.in");
+if(checkEmail2){
+    console.log("Email is valid");
+}
+else{
+    console.log("Email is not valid");
+}
